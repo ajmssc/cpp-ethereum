@@ -72,6 +72,8 @@ Note: this section was copied from [ethpool](https://ethpool.freshdesk.com/suppo
 
 Ubuntu 14.04. OpenCL only (for AMD cards)
 
+You might get an error regarding package libjson-rpc-cpp-dev. That package was renamed to libjson-rpc-cpp-dev in Ubuntu 15.10+.
+
 ```bash
 sudo apt-get update
 sudo apt-get -y install software-properties-common
@@ -89,6 +91,7 @@ make -j8
 You can then find the executable in the ethminer subfolder
 
 Ubuntu 14.04. OpenCL + CUDA (for NVIDIA cards)
+
 You might get an error regarding package `libjson-rpc-cpp-dev`. That package was renamed to `libjson-rpc-cpp-dev` in Ubuntu 15.10+.
 
 ```bash
