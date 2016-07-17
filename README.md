@@ -72,7 +72,7 @@ Note: this section was copied from [ethpool](https://ethpool.freshdesk.com/suppo
 
 Ubuntu 14.04. OpenCL only (for AMD cards)
 
-You might get an error regarding package libjson-rpc-cpp-dev. That package was renamed to libjson-rpc-cpp-dev in Ubuntu 15.10+.
+You might get an error regarding package `libjson-rpc-cpp-dev`. That package was renamed to `libjson-rpc-cpp-dev` in Ubuntu 15.10+. Just replace the package name in the `apt-get install ...` line.
 
 ```bash
 sudo apt-get update
@@ -92,7 +92,7 @@ You can then find the executable in the ethminer subfolder
 
 Ubuntu 14.04. OpenCL + CUDA (for NVIDIA cards)
 
-You might get an error regarding package `libjson-rpc-cpp-dev`. That package was renamed to `libjson-rpc-cpp-dev` in Ubuntu 15.10+.
+You might get an error regarding package `libjson-rpc-cpp-dev`. That package was renamed to `libjson-rpc-cpp-dev` in Ubuntu 15.10+. Just replace the package name in the `apt-get install ...` line.
 
 ```bash
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
