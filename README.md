@@ -89,6 +89,7 @@ make -j8
 You can then find the executable in the ethminer subfolder
 
 Ubuntu 14.04. OpenCL + CUDA (for NVIDIA cards)
+You might get an error regarding package `libjson-rpc-cpp-dev`. That package was renamed to `libjson-rpc-cpp-dev` in Ubuntu 15.10+.
 
 ```bash
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
